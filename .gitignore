@@ -3,6 +3,11 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# Models
+trained_models/full_train/*
+trained_models/sample_train/*
+Data/*
+
 # C extensions
 *.so
 
@@ -26,6 +31,9 @@ share/python-wheels/
 .installed.cfg
 *.egg
 MANIFEST
+.DS_Store
+.idea/
+
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
